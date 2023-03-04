@@ -1,6 +1,6 @@
 {
-  "name": "password-manager",
-  "version": "1.0.0",
+  "name": "manage-password",
+  "version": "1.0.1-custom",
   "description": "This is password manager",
   "main": "index.js",
   "type": "module",
@@ -16,6 +16,17 @@
   "bugs": {
     "url": "https://github.com/priyanov101999/password-manager/issues"
   },
+  "keywords": [
+    "user-password",
+    "safe",
+    "secure",
+    "password-manager",
+    "password",
+    "manager",
+    "cli",
+    "credencials",
+    "secret"
+  ],
   "homepage": "https://github.com/priyanov101999/password-manager#readme",
   "dependencies": {
     "crypto": "^1.0.1",
@@ -24,5 +35,6 @@
     "promisify": "^0.0.3",
     "redis": "^4.6.4",
     "util": "^0.12.5"
-  }
+  },
+  "bin": "cli.js"
 }
